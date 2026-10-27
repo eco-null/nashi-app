@@ -1,7 +1,7 @@
 name: Source checks
 on:
   push:
-    branches: [main]
+    branches: [main, verify/issue-17-source-229b3e5e]
   pull_request:
   repository_dispatch:
     types: [owner-pr-merged]
